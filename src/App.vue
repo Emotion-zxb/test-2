@@ -11,7 +11,7 @@
     <!-- 指定路由组件出现的位置 -->
 
 
-
+    <!--  苏东坡传  -->--hot fix
     <keep-alive include="Life"> <!-- 注意这里的Life是组件名，组件名，组件名 -->
       <router-view></router-view>
     </keep-alive>
