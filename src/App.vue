@@ -9,6 +9,9 @@
     <el-button @click="forward">前进forward</el-button>
     <el-button @click="go">go</el-button>
     <!-- 指定路由组件出现的位置 -->
+
+
+
     <keep-alive include="Life"> <!-- 注意这里的Life是组件名，组件名，组件名 -->
       <router-view></router-view>
     </keep-alive>
